@@ -96,6 +96,10 @@ body {
   grid-column: 2;
 }
 
+.animais-lista li {
+ cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar {
   width: 18px;
 }
@@ -118,6 +122,7 @@ body {
   margin-bottom: 3rem;
 }
 
+
 .faq-lista {
   grid-column: 2 / 4
 }
@@ -128,6 +133,8 @@ body {
   margin-top: 2rem;
   margin-bottom: .5rem;
   color: #E54;
+  cursor: pointer;
+  font-size: 1.2em;
 }
 
 .faq-lista dt::before {
@@ -143,6 +150,8 @@ body {
   font-family: Helvetica, Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
+  cursor: pointer;
+  line-height: 2em;
 }
 
 .mapa {
@@ -205,4 +214,28 @@ body {
   .copy {
     margin-bottom: 0px;
   }
+}
+
+.js-tabcontent section {
+  display: none;
+}
+
+.ativo {
+  display: block !important; 
+  animation: show .5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px,0,0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+.js-acordingText {
+  display: none;
 }

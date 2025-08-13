@@ -31,3 +31,26 @@ accordingTittle.forEach((item,index)=>{
     } )
 })
 
+// Scroll suave para Link-Interno 
+
+const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
+
+function scrollSection(e) {
+    e.preventDefault();
+    const link = e.currentTarget.getAttribute('href')
+    const section = document.querySelector(link)
+    console.log(section)
+
+    section.scrollIntoView({
+        behavior: 'smooth', 
+        block: 'start'
+    }); 
+
+}
+
+linksInternos.forEach((item) => {
+    item.addEventListener('click', scrollSection)
+})
+
+// animacao scroll 
+

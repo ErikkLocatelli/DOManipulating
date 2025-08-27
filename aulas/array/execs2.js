@@ -48,7 +48,7 @@ const compras = [
   }
 ]
 
-const valores = compras.map(compra => parseFloat(compra.preco.replace("R$", "").replace(/\./g, "").replace(",", ".")))
+const valores = compras.map(compra => +(compra.preco.replace("R$", "").replace(/\./g, "").replace(",", ".")))
 
 const total = valores.reduce((acc, soma) => acc + soma)
 console.log(total)

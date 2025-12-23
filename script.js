@@ -1,56 +1,14 @@
-const tabMenu = document.querySelectorAll('.js-tabmenu li')
-const tabContent = document.querySelectorAll('.js-tabcontent section')
-const accordingContent = document.querySelectorAll('.faq-lista dd')
-const accordingTittle = document.querySelectorAll('.faq-lista dt')
+import initScrollSuave from "./js/modules/scroll-suave.js";
+import initAnimacaoScroll from "./js/modules/anima-scroll.js";
+import initAccordion from "./js/modules/anima-accord.js";
+import initTabNav from "./js/modules/anima-tabNav.js";
+import { initModal, closeModal } from "./js/modules/modal.js";
+import submitForm from "./js/modules/submit.js";
 
-tabContent[0].classList.add('ativo')
-
-
-function activeTab(index) {
-    tabContent.forEach((item) => {
-        item.classList.remove('ativo')
-    })
-    tabContent[index].classList.add('ativo')
-}
-
-tabMenu.forEach((item, index)=>{
-    item.addEventListener('click', () => {
-        activeTab(index)
-    })
-})
-
-// -- According list 
-
-function activeAccord(index) {
-    accordingContent[index].classList.toggle('ativo')
-}
-
-accordingTittle.forEach((item,index)=>{
-    item.addEventListener('click', () => {
-        activeAccord(index)
-    } )
-})
-
-// Scroll suave para Link-Interno 
-
-const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
-
-function scrollSection(e) {
-    e.preventDefault();
-    const link = e.currentTarget.getAttribute('href')
-    const section = document.querySelector(link)
-    console.log(section)
-
-    section.scrollIntoView({
-        behavior: 'smooth', 
-        block: 'start'
-    }); 
-
-}
-
-linksInternos.forEach((item) => {
-    item.addEventListener('click', scrollSection)
-})
-
-// animacao scroll 
-
+initScrollSuave();
+initAnimacaoScroll();
+initAccordion();
+initTabNav();
+initModal();
+closeModal();
+submitForm();

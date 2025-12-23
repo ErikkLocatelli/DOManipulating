@@ -4,6 +4,7 @@ import initAccordion from "./js/modules/anima-accord.js";
 import initTabNav from "./js/modules/anima-tabNav.js";
 import { initModal, closeModal } from "./js/modules/modal.js";
 import submitForm from "./js/modules/submit.js";
+import initDropdownMenu from "./js/modules/dropdown-menu.js";
 
 initScrollSuave();
 initAnimacaoScroll();
@@ -12,3 +13,4 @@ initTabNav();
 initModal();
 closeModal();
 submitForm();
+initDropdownMenu();

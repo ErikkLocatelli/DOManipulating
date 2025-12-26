@@ -5,6 +5,9 @@ import initTabNav from "./js/modules/anima-tabNav.js";
 import { initModal, closeModal } from "./js/modules/modal.js";
 import submitForm from "./js/modules/submit.js";
 import initDropdownMenu from "./js/modules/dropdown-menu.js";
+import initMenuMobile from "./js/modules/menu-mobile.js";
+import animaNumeros from "./js/modules/anima-numeros.js";
+import workingTime from "./js/modules/funcionamento.js";
 
 initScrollSuave();
 initAnimacaoScroll();
@@ -14,3 +17,6 @@ initModal();
 closeModal();
 submitForm();
 initDropdownMenu();
+initMenuMobile();
+animaNumeros(); 
+workingTime();

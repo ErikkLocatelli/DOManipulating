@@ -12,7 +12,7 @@ export default function animaNumeros() {
             num.innerText = numText; 
             clearInterval(timer)
            }
-        }, 50 * Math.random())
+        }, 1000 * Math.random())
     })
 }
 

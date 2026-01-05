@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .invalido {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form name="contato" id="contato" style="display: flex; flex-direction: column; max-width: 320px; gap: 10px;">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <span class="warnMsg"></span>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" placeholder="teste" style="resize: none;"></textarea>
+        <select name="cores" id="cores">
+            <option value="red">Vermelho</option>
+            <option value="blue">blue</option>
+        </select>
+        <input type="color" id="color">
+        <input type="date" id="date">
+        <input type="number" id="number">
+        <input type="range" id="range">
+        <input type="password" id="password">
+        <label for="identidade">Identidade</label>
+        <input type="checkbox" name="identidade" id="identidade">
+    </form>
+    <span class="texto"></span>
+</body>
+<script src="script.js"></script>
+</html>

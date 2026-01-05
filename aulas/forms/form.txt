@@ -1,0 +1,5 @@
+Validadores 
+
+método checkValidity verifica se um input com o atributo required, é valído ou não. A propriedade validationMessage possui a mensgaem padrão de rrro do browser. É possível modificar com semCustomValidity
+
+// LocalStorage 

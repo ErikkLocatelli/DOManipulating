@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            max-width: 320px;
+            margin: 2em;
+        }
+
+        input[type=submit] {
+            margin-top: 1em;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.219);
+        }
+    </style>
+</head>
+<body>
+    <form class="conteudo">
+        <h1>Procure seu endereco</h1>
+        <input type="text" id="name" class="name" placeholder="Digite seu CEP">
+        <div class="holder"></div>
+        <input type="submit">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

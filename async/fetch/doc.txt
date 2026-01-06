@@ -1,0 +1,5 @@
+A empresa do malvado dofenSmit
+
+// https:/blockchain.info/ticker
+
+// https://api.chucknorris.io/jokes/random

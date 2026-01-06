@@ -3,3 +3,9 @@ Síncrono - Espera a tarefa anterior acabar para realizar a próxima
 Assíncrono - Não espera para realizar a próxima tarefa (Ex: setTimeout, Promises, Fetch, async etc.)
 
 // Promises 
+
+
+// Fetch api - isso é deveras importante então estudar pra valer 
+
+// blob - importante já vi na molde.me 
+

@@ -9,3 +9,12 @@ Assíncrono - Não espera para realizar a próxima tarefa (Ex: setTimeout, Promi
 
 // blob - importante já vi na molde.me 
 
+// JSON - JavaScript Object Notation (JSON) é um formato de organização de dados, composto por um conjunto de chave e valor. 
+
+{
+    "id": 1, 
+    "name": "erik", 
+    "email": "erik@email"
+}
+
+// os dados de um json pode ser qualquer tipo (number, array, boolean, null etc)

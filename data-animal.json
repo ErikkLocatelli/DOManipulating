@@ -1,0 +1,13 @@
+[
+    {   "especie": "urso", 
+        "population": 12
+    },
+     {   "especie": "sapo", 
+        "population": 34545
+    },
+     {   "especie": "macaco", 
+        "population": 1245
+    }, {   "especie": "abelha", 
+        "population": 456
+    }
+]

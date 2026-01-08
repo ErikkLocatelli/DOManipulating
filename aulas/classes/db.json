@@ -1,0 +1,72 @@
+[
+    {
+        "nome": "Erik", 
+        "idade": 21, 
+        "role": "estagiário"
+    }, 
+    {
+        "nome": "Maria", 
+        "idade": 22, 
+        "role": "estagiário"
+    }, 
+    {
+        "nome": "João", 
+        "idade": 23, 
+        "role": "estagiário"
+    }, 
+    {
+        "nome": "Ana", 
+        "idade": 24, 
+        "role": ""
+    },
+    {
+        "nome": "Carlos", 
+        "idade": 28, 
+        "role": "desenvolvedor"
+    },
+    {
+        "nome": "Patricia", 
+        "idade": 32, 
+        "role": "gerente"
+    },
+    {
+        "nome": "Lucas", 
+        "idade": 26, 
+        "role": "analista"
+    },
+    {
+        "nome": "Fernanda", 
+        "idade": 29, 
+        "role": "designer"
+    },
+    {
+        "nome": "Roberto", 
+        "idade": 35, 
+        "role": "diretor"
+    },
+    {
+        "nome": "Juliana", 
+        "idade": 27, 
+        "role": "coordenador"
+    },
+    {
+        "nome": "Pedro", 
+        "idade": 30, 
+        "role": "desenvolvedor"
+    },
+    {
+        "nome": "Beatriz", 
+        "idade": 25, 
+        "role": "assistente"
+    },
+    {
+        "nome": "Marcelo", 
+        "idade": 33, 
+        "role": "especialista"
+    },
+    {
+        "nome": "Camila", 
+        "idade": 24, 
+        "role": "estagiário"
+    }
+]

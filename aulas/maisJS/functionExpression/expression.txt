@@ -1,0 +1,9 @@
+É criada a partir da declaração de uma variável. 
+
+const somar = function(a,b) {
+    return a + b
+}
+
+somar(1,2) 
+
+Segundo o origamid assim é mt mais utilizado
